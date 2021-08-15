@@ -1,0 +1,8 @@
+{
+  "name": "srxd-fm-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SRXDModdingGroup/SRXDFMServer.git",
+  "author": "Amy Y <ctrlalternativedelete@gmail.com>",
+  "license": "MIT"
+}
