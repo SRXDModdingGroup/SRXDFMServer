@@ -1,0 +1,12 @@
+vJÅ Ú_Y´EK@+Ñ66¥:ÑÀ¨
+PÀ5Ýù¤Ð)4P7ÂíHTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/octet-stream
+Content-Length: 101
+Access-Control-Allow-Origin: *
+Set-Cookie: io=5HoX3uoDLngpQT0DAAA3
+Date: Sun, 15 Aug 2021 10:36:41 GMT
+Via: 1.1 vegur
+
+	ÿ0{"sid":"5HoX3uoDLngpQT0DAAA3","upgrades":["websocket"],"pingInterval":25000,"pingTimeout":60000}
