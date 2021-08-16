@@ -17,8 +17,12 @@ app.post('/socket.io/', function (req, res) {
 // 42,["ntp:client_sync", {"t0":1607830859388}]
 io.of("/SpinFM_Easy_7_7").on('connection', (socket) => {
     console.log('a user connected');
+    socket.emit("2probe")
     socket.on('ntp:client_sync', (d) => {
-        d["t0"]
+        console.log(d);
+    });
+    socket.on('username', (d) => {
+        console.log(d);
     });
     socket.on('disconnect', () => {
         console.log('user disconnected');
@@ -27,10 +31,8 @@ io.of("/SpinFM_Easy_7_7").on('connection', (socket) => {
 
 io.on('connection', (socket) => {
     console.log('a user connected');
+    socket.emit("2probe")
     socket.on('ntp:client_sync', (d) => {
-        console.log(d);
-    });
-    socket.on('username', (d) => {
         console.log(d);
     });
     socket.on('disconnect', () => {
